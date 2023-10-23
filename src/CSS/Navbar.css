@@ -1,0 +1,16 @@
+
+.navbar {
+    background-color: #efefef;
+  }
+  .bottom-tab-nav {
+    border-top: solid 1px #EBEBEB;
+  }
+  .nav-link,
+  .bottom-nav-link {
+    color: #55575b;
+    padding: 5px 0px 5px 0px!important;
+  }
+  .bottom-nav-link.active {
+    color: #922c88;
+  }
+ 
