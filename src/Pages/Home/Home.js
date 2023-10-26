@@ -36,34 +36,40 @@ export const Home = () => {
   });
 
   return (
-    <Layout>
-      <Header style={{ position: "sticky", top: "0" }}>
-        <div className="logo" />
-        <Menu mode="horizontal" selectedKeys={[selectedTab]}>
-          <Menu.Item key="live" onClick={() => setSelectedTab("live")}>
-            Live
-          </Menu.Item>
-          <Menu.Item key="upcoming" onClick={() => setSelectedTab("upcoming")}>
-            Upcoming
-          </Menu.Item>
-          <Menu.Item key="finished" onClick={() => setSelectedTab("finished")}>
-            Finished
-          </Menu.Item>
-        </Menu>
-      </Header>
-      <Content style={{ padding: "12px" }}>
-        <div className="site-layout-content">
-          {selectedMatches.length === 0 ? (
-            <Text>No matches found for this category.</Text>
-          ) : (
-            selectedMatches.map((match, index) => (
-              <Col span={24} key={index}>
-                <MatchCard match={match} />
-              </Col>
-            ))
-          )}
-        </div>
-      </Content>
-    </Layout>
+      <Layout >
+        <Header style={{ position: "sticky", top: "0" }}>
+          <div className="logo" />
+          <Menu mode="horizontal" selectedKeys={[selectedTab]}>
+            <Menu.Item key="live" onClick={() => setSelectedTab("live")}>
+              Live
+            </Menu.Item>
+            <Menu.Item
+              key="upcoming"
+              onClick={() => setSelectedTab("upcoming")}
+            >
+              Upcoming
+            </Menu.Item>
+            <Menu.Item
+              key="finished"
+              onClick={() => setSelectedTab("finished")}
+            >
+              Finished
+            </Menu.Item>
+          </Menu>
+        </Header>
+        <Content style={{ padding: "12px" }}>
+          <div className="site-layout-content">
+            {selectedMatches.length === 0 ? (
+              <Text>No matches found for this category.</Text>
+            ) : (
+              selectedMatches.map((match, index) => (
+                <Col span={24} key={index}>
+                  <MatchCard match={match} />
+                </Col>
+              ))
+            )}
+          </div>
+        </Content>
+      </Layout>
   );
 };

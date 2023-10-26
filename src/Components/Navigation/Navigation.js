@@ -41,7 +41,7 @@ export const Navigation = () => {
                       icon={tab.icon}
                       color="#51258f"
                     />
-                    <li style={{ color: "#51258f" }}>{tab.label}</li>
+                    <li style={{ color: "#51258f",fontWeight:"bold",fontStyle:"normal" }}>{tab.label}</li>
                   </div>
                 </NavLink>
               </NavItem>

@@ -35,8 +35,8 @@ const MatchCard = ({ match }) => {
           padding: "20px 0px 10px 0px",
         }}
       >
-        <Text>Date: {match.date}</Text>
-        <Text>Venue: {match.venue}</Text>
+        <Text strong>Date: {match.date}</Text>
+        <Text strong>Venue: {match.venue}</Text>
       </Row>
     </Card>
   );
