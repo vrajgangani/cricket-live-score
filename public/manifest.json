@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Worldcup 2023- live match socre",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "fevicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "fevicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }

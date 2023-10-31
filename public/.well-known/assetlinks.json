@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.netlify.cricket_live_score.twa",
+    "sha256_cert_fingerprints": ["5B:2A:06:B7:C0:FE:38:DB:A5:1F:67:0F:31:8C:3D:38:41:B5:63:EE:DA:DD:20:49:F6:D5:70:B0:F3:60:2E:97"]
+  }
+}]

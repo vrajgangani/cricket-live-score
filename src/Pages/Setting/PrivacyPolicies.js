@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "antd";
-import { appName } from "../../Assets/AboutApp/appName";
+import { Email, appName } from "../../Assets/AboutApp/appName";
 const { Title, Text } = Typography;
 
 const PrivacyPolicies = () => {
@@ -15,7 +15,7 @@ const PrivacyPolicies = () => {
 
       <Title level={4}>1. Introduction</Title>
       <Text>
-        Welcome to <Text strong>{appName}</Text>! At [Your Company Name], we are committed to
+        Welcome to <Text strong>{appName}</Text>! we are committed to
         protecting your privacy and providing a secure and enjoyable experience
         while using our cricket live score app. This Privacy Policy outlines how
         we collect, use, and safeguard your personal information.
@@ -78,7 +78,7 @@ const PrivacyPolicies = () => {
         You can choose not to provide certain information, but this may limit
         your ability to use some features of the app. You may also have the
         right to request access to, correct, or delete your personal
-        information. Please contact us at [contact email] to exercise these
+        information. Please contact us at {Email} to exercise these
         rights.
       </Text>
 
@@ -92,7 +92,7 @@ const PrivacyPolicies = () => {
       <Title level={4}>8. Contact Us</Title>
       <Text>
         If you have any questions or concerns regarding this Privacy Policy or
-        our data practices, please contact us at [contact email].
+        our data practices, please contact us at {Email}.
       </Text>
 
       <Title level={4}>9. Consent</Title>
