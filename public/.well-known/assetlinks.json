@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "app.netlify.cricket_live_score.twa",
-    "sha256_cert_fingerprints": ["5B:2A:06:B7:C0:FE:38:DB:A5:1F:67:0F:31:8C:3D:38:41:B5:63:EE:DA:DD:20:49:F6:D5:70:B0:F3:60:2E:97"]
+    "package_name": "app.netlify.cricket_live_score.score",
+    "sha256_cert_fingerprints": ["1D:CB:69:01:CF:5F:A9:F3:1B:43:9A:18:72:12:2B:CE:6E:50:16:1E:90:EC:8B:6A:D6:26:80:20:5D:C2:D3:2B"]
   }
 }]
